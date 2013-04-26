@@ -16,7 +16,7 @@
             <input type="text" id="prijs" class="check" required value="">          
             
             <input type="submit" value="Toevoegen">
-            <a href=""
+            <a href="index.php">     </a>
         </form>
     </body>
 </html>
