@@ -1,22 +1,20 @@
 <?php
-    session_start();
+session_start();
+
+
 
 
 ?>
-
-<!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="css/page.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title></title>
     </head>
     <body>
-        <form id="add" method="post" action='<?php echo $_SERVER["PHP_SELF"];?>'>
+        <form id="edit" method="post" action='<?php echo $_SERVER["PHP_SELF"];?>'>
             <input type="text" id="naam" class="check" required value="">
             <textarea id="beschrijving" class="check" required></textarea>
             <input type="text" id="prijs" class="check" required value="">          
-            
-            <input type="submit" value="Toevoegen">
-            <a href=""
         </form>
     </body>
 </html>
